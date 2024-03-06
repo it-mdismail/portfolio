@@ -1,0 +1,39 @@
+/* slider section start */
+.hero-inner{
+    height: 650px;
+    width: 650px;
+}
+.hero-inner img{
+    position: absolute;
+    bottom: 10px;
+    right: 170px;
+}
+.hero-inner .sec-0{
+    height: 95%;
+    width: 95%;
+}
+.hero-inner .sec-1{
+    height: 82.5%;
+    width: 82.5%;
+}
+.hero-inner .sec-2{
+    height: 70%;
+    width: 70%;
+}
+.facebook{
+    top: 100px;
+    right: 117px;
+}
+.linkedin{
+    top: 190px;
+    right: 55px;
+}
+.globe{
+    top: 300px;
+    right: 35px;
+}
+.twitter{
+    top: 410px;
+    right: 60px;
+}
+/* slider section end */

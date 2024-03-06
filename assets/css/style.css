@@ -1,0 +1,157 @@
+/* common */
+a{
+  text-decoration: none;
+}
+.bg-master{
+    background-color: #252734;
+}
+.bg-master1{
+  background-color: #2A2C39;
+}
+.text-master{
+    color: #858790;
+}
+.icon-hover:hover{
+    background: #f8f9fa;
+    color: #252734 !important;
+    transition: ease .8s;
+}
+.span-2{
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+}
+.colum-span-2{
+  grid-column: auto / span 2;
+}
+.row-span-2{
+  grid-row: auto / span 2;
+}
+.opacity-5{
+    opacity: .5;
+}
+.opacity-hover-7:hover{
+  opacity: .7;
+}
+/* common */
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+/* testy custom animation using for hover start */
+.hover-ani,.hover-ani-1{
+    position: relative;
+    background: #252734;
+    overflow: hidden;
+}
+.hover-ani:hover{
+    color: #00ffff !important;
+}
+.hover-ani::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #00ffff;
+    visibility: hidden;
+    transition:ease 1s;
+}
+.hover-ani:hover::before{
+    visibility: visible; 
+    left: 0;
+    background: transparent; 
+}
+.hover-ani-1::before{
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #252734;
+  visibility: hidden;
+  transition:ease 1s;
+}
+.hover-ani-1:hover::before{
+  visibility: visible; 
+  top: 0;
+  background: #252734;
+  opacity: .6;
+  border: solid 1px #06f000;
+}
+/* testy custom animation using for hover end */
+.dropdown-item:hover{
+    background: #0d101b !important;
+}
+
+/* Motion Effect Start */
+  @keyframes move {
+    0% {
+      transform: translateX(-00%); /* Initial position */
+    }
+    100% {
+      transform: translateX(100%); /* Final position */
+        background: transparent;
+    }  
+  }
+
+  .motion{
+    position: relative;
+  }
+  .motion::after{
+    position: absolute;
+    content: "";
+    background: #00ffff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    animation: move 2s infinite;
+}
+/* Motion Effect End */
+
+/* service area start */
+.service-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+  overflow: hidden;
+}
+/* service area end */
+
+/* project area start */
+.project-card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+  overflow: hidden;
+}
+/* project area end */
+
+
+/* Our team start */
+.team-profile{
+    min-width: 200px;
+    max-width: 250px;
+}
+.team-social{
+  position: absolute;
+  top: -100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .5;
+  visibility: hidden;
+}
+.team-profile:hover .team-social{
+  top: 0;
+  transition: ease .7s;
+  visibility: visible;
+}
+/* Our team end */
