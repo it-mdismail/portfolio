@@ -5,7 +5,6 @@
 }
 .hero-inner img{
     position: absolute;
-    bottom: 10px;
     right: 120px;
 }
 .hero-inner .sec-0{
@@ -21,19 +20,19 @@
     width: 70%;
 }
 .facebook{
-    top: 80px;
-    right: 108px;
+    top: 120px;
+    right: 72px;
 }
 .linkedin{
-    top: 135px;
-    right: 64px;
+    top: 195px;
+    right: 39px;
 }
 .globe{
-    top: 200px;
-    right: 37px;
+    top: 280px;
+    right: 30px;
 }
 .twitter{
-    top: 275px;
-    right: 30px;
+    top: 360px;
+    right: 54px;
 }
 /* slider section end */

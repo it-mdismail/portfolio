@@ -32,6 +32,10 @@ a{
 .opacity-hover-7:hover{
   opacity: .7;
 }
+.underline{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
 /* common */
 .dropdown:hover .dropdown-menu{
     display: block;

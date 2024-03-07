@@ -6,8 +6,7 @@
     }
     .hero-inner img{
         position: absolute;
-        bottom: 10px;
-        right: 140px;
+        right: 120px;
     }
     .hero-inner .sec-0{
         height: 95%;
